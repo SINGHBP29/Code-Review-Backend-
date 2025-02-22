@@ -1,0 +1,179 @@
+/* * {
+  margin:0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height:100%;
+  width:100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left,
+main .right {
+  height:100%;
+  flex-basis:50%;
+  border-radius: 0.7rem;
+
+}
+
+main .left {
+  background-color: aliceblue;
+  position: relative;
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  height:100%;
+   width:100%;
+   margin:0;
+   border-radius:0.7rem;
+   background-color: aliceblue;
+}
+main .left .review {
+  position:absolute;
+  bottom:1rem;
+  right:1rem;
+  background-color: rgb(219,219,255);
+  color: #000000;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  cursor:pointer;
+  user-select: none;
+  border-radius: 0.7rem;
+}
+
+main .right {
+  background-color: #343434;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  overflow:auto;
+} */
+
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background-color: #1E1E2E;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Layout */
+main {
+  height: 90%;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: linear-gradient(145deg, #242424, #2f2f2f);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #111111, -5px -5px 15px #2a2a2a;
+}
+
+/* Left Panel - Code Editor */
+main .left {
+  flex: 1;
+  background-color: #2A2A40;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: inset 5px 5px 10px #1e1e2e, inset -5px -5px 10px #3a3a50;
+}
+
+/* Code Editor Styles */
+.left .code,
+.code pre,
+.code pre code {
+  flex: 1;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #1E1E2E;
+  color: #F8F8F2;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: auto;
+  border: 1px solid #444;
+  transition: all 0.3s ease;
+}
+
+.code:hover {
+  border-color: #6272a4;
+}
+
+/* Review Button */
+main .left .review {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: linear-gradient(135deg, #6272a4, #8be9fd);
+  color: #000;
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.review:hover {
+  background: linear-gradient(135deg, #8be9fd, #50fa7b);
+  transform: scale(1.05);
+}
+
+/* Right Panel - Review Output */
+main .right {
+  flex: 1;
+  background-color: #282A36;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  overflow: auto;
+  color: #f8f8f2;
+  border: 1px solid #444;
+  box-shadow: inset 5px 5px 10px #1e1e2e, inset -5px -5px 10px #3a3a50;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1E1E2E;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6272a4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8be9fd;
+}
