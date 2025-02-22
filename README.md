@@ -21,28 +21,8 @@ The AI ​​interest code reviewer is a web application that benefits from Gemi
    AI model:  Google Mithun AI (Gemini -2.0 -Flash)
 
 ## 📂 Project structure
-``
-        📦 AI-Powered Code Reviewer
-        ├── 📁 frontend
-        │   ├── 📁 src
-        │   │   ├── App.jsx
-        │   │   ├── index.css
-        │   │   ├── components
-        │   │   ├── assets
-        │   ├── package.json
-        │   ├── vite.config.js
-        │
-        ├── 📁 backend
-        │   ├── 📁 routes
-        │   │   ├── ai.routes.js
-        │   ├── 📁 controllers
-        │   │   ├── ai.controller.js
-        │   ├── 📁 services
-        │   │   ├── ai.service.js
-        │   ├── app.js
-        │   ├── server.js
-        │   ├── package.json
-        ,,
+    ![image](https://github.com/user-attachments/assets/56c6b298-cf66-40bd-bd8c-6870c30b6929)
+
 
 ## 🔧 instruction instructions
 ### 1 repository clone
