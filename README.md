@@ -1,13 +1,13 @@
-Before the Transition 
-![image](https://github.com/user-attachments/assets/5176b865-8589-4241-8db2-4469c2ca1335)
-After the Transition
-![image](https://github.com/user-attachments/assets/8dd53467-8507-4421-89b4-dd4607692017)
-
-
 # Ai-interested code reviewer
 
 ## 📌 Observation
 The AI ​​interest code reviewer is a web application that benefits from Gemini AI model to Google to analyze and review the code. This code provides quality, best practice, performance in performance and response to potential errors.
+
+## Before the Transition 
+![image](https://github.com/user-attachments/assets/5176b865-8589-4241-8db2-4469c2ca1335)
+## After the Transition
+![image](https://github.com/user-attachments/assets/8dd53467-8507-4421-89b4-dd4607692017)
+
 
 ## 🚀 Features
 -  AI-driven code review : Get automatic response to your code.
